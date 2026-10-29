@@ -11,6 +11,7 @@ ul,ol{
 a{
     text-decoration: none;
 }
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -43,11 +44,14 @@ nav{
     border-radius: 10px;
     padding: 13px 24px;
 }
-.menubar ul li a :hover{
-   
-    color: #1512bd;
-}
+.menubar ul li  a:hover{
+    color: #5956E8;
+    transition: 0.5s;
 
+}
+.menubar ul li a::first-line{
+    color: #5956E8;
+}
 
 /* header section style end */
 /* banner section style starts */
