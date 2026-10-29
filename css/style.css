@@ -1,0 +1,445 @@
+/* all common css starts */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* all common css end */
+/* header section style starts */
+.navbar{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding-top:33px ;
+}
+.menubar ul{
+    display: flex;
+    gap: 50px;
+}
+.menubar ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #181818;
+}
+.menubtn a{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5956E8;
+    border-radius: 10px;
+    padding: 13px 24px;
+}
+.menubar ul li a :hover{
+   
+    color: #1512bd;
+}
+
+
+/* header section style end */
+/* banner section style starts */
+
+.banner{
+   
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+   
+}
+.bannerpart{
+    padding-top: 35px;
+}
+.bannercontent h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFEFE;
+    line-height: 80px;
+    letter-spacing: 0%;
+}
+.bannerflex{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-top :237px; ; */
+
+}
+.bannercontent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+.bannercontent{
+    padding-top: 237px;
+  
+}
+.bannercontent a{
+   
+    color: #5956E8;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 13px 22px;
+
+}
+.bannercontect{
+    padding-top: 30px;
+}
+.bannerimg{
+    padding-top: 182px;
+      padding-left: 148px;
+}
+
+
+
+/* banner section style end */
+/* service section style start */
+.service{
+    padding-top: 100px;
+}
+.servicetittle h2{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.servicetittle p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* service top style strats */
+.serviceparttopui{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+.servicecontainer{
+    padding: 63px 0px 0px 48px;
+    
+}
+
+
+.ui h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.ui p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+
+
+.servicetopwebdev{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+
+.webdevelopment h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.webdevelopment p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+.servicetopdigital{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+
+.digitalmarketing h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.digitalmarketing p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+.digitalmarketing  img{
+    width: 71px;
+    height: 71px;
+    border: 0.5px solid #5956E8;
+    border-radius: 10px;
+    padding: 26px 17px 8px;
+}
+.servicetop{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+/* service top style end */
+
+/* service bottom style starts */
+
+.servicebtmgraphic{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+
+.graphic h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.graphic p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+.graphic  img{
+    width: 71px;
+    height: 71px;
+    border: 0.5px solid #5956E8;
+    border-radius: 10px;
+    padding: 17px;
+}
+.servicebtmwebdg{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+
+.webdesign h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.webdesign p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+.webdesign  img{
+    width: 71px;
+    height: 71px;
+    border: 0.5px solid #5956E8;
+    border-radius: 10px;
+   padding: 17px;
+}
+.servicebtmotion{
+
+   background-image: url(../images/servicebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 370px;
+   height: 385px;
+  
+}
+
+.motion h3{
+    padding-top: 30px;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.motion p{
+    padding-top: 20px;
+    font-size:16px;
+    font-weight: 400px;
+    color: #181818;
+}
+.motion  img{
+    width: 71px;
+    height: 71px;
+    border: 0.5px solid #5956E8;
+    border-radius: 10px;
+   padding: 17px;
+}
+
+.servicepartbottom{
+    display: flex;
+    gap: 30px;
+    padding-top: 26px;
+}
+
+/* service bottom style end */
+
+/* service style end */
+
+/* portfolio img style stars */
+.portfolio{
+    padding-top: 100px;
+}
+
+
+.portfoliotittle h2{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.portfoliotittle p{
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* port top style start */
+.porttop{
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.arrow{
+ position: absolute;
+ 
+
+ background-color:#5956E8;
+
+}
+.arrow h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.arrow h6{
+    color: #FFFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+/* port top style end */
+/* port bottom style starts */
+.portbottom{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+/* port bottom style end */
+
+/* portfolio img style end */
+/* member style start */
+
+ .membertitle h2{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.membertitle p{
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 20px;
+}
+.member{
+    padding-top: 100px;
+}
+
+.member_mahid{
+    background-image: url(../images_member/memberone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 444px;
+}
+.memberhasn{
+    background-image: url(../images_member/membertwo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 444px;
+}
+.memberkazi{
+    background-image: url(../images_member/memberthree.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 444px;
+}
+.memberthree{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+/* member style end */
